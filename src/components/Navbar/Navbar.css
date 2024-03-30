@@ -1,0 +1,12 @@
+.app__navbar-login a,.app__navbar-smallscreen_overlay{
+    transition: all  0.5s ease  !important;
+}
+.app__navbar-smallscreen-links li{
+    font-family: var(--font-base);
+}
+
+@media screen and (min-width:2000px){
+    .app__navbar-logo img{
+        width: 210px !important;
+    }
+}

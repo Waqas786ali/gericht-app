@@ -1,0 +1,27 @@
+.app__menu{
+    flex-direction: column;
+}
+.app__menu-menu_heading{
+    font-family: var(--font-base);
+    letter-spacing: 0.0.4em;
+}
+
+@media screen and (min-width:2000px){
+    .app__menu-menu_img{
+        width: 650px !important;
+    }
+    .app__menu-menu_img img{
+        height: 920px !important;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .app__menu-menu{
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+    .app__menu-menu_img{
+        margin: 3rem 0 !important;
+    }
+}

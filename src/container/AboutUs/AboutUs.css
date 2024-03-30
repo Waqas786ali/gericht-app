@@ -1,0 +1,18 @@
+
+
+@media screen and (min-width:2000px) {
+    .app__aboutus-content_knife img{
+        height: 1110px !important;
+    }
+    .app__about-content_history p,
+    .app__about-content_about p{
+        margin: 4rem 0 !important;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .app__aboutus-content{
+        flex-direction: column !important;
+    }
+}
